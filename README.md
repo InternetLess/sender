@@ -12,7 +12,7 @@
 Используйте номер, на который хотите получать смс. Если у вас есть иностранная симка - используйте её. \
 После регистрации у вас будет trial аккаунт, его хватит на 3+ маршей. \
 Заведите Trial number.
-Информация, которая вам нужна будет дальше: Screen
+Информация, которая вам нужна будет дальше: [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/twilio.png)
 - Tiral Number
 - Account Sid
 - Auth Token
@@ -20,16 +20,16 @@
 #### Google Cloud:
 Облачный сервис, после регистрации у вас будет 300$ trial. Этого с лихвой хватит, чтобы запустить наш контейнер.
 1. https://console.cloud.google.com/ Можете войти, используя существующий аккаунт google.
-2. Активируйте trial. Screenshot. Там потребуется карта, но это бесплатно и гуглу можно доверять :)
+2. Активируйте trial. [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/activate-gcp-trial.png). Там потребуется карта, но это бесплатно и гуглу можно доверять :)
 3. Зайдите на страницу создания сервиса Cloud Run(это дешёвый способ запускать контейнеры). https://console.cloud.google.com/run/create
-4. Заполните поля, как на скриншоте. Screen
-5. Url образа контейнера: gcr.io/internetless/sender:latest Screen
-6. Заполните переменные: Screen
+4. Заполните поля, как на скриншоте. [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/cloud-run-fill-1.png)
+5. Url образа контейнера: gcr.io/internetless/sender:latest [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/cloud-run-fill-2.png)
+6. Заполните переменные: [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/cloud-run-fill-3.png)
     - TWILIO_SID - получили при регистрации на twilio (Account Sid)
     - TWILIO_TOKEN - тоже при регистрации на twilio (Auth Token)
     - FROM_NUMBER - номер с twilio. Американский +1XXX
     - TO_NUMBER - ваш номер телефона
-7. Проверяете, что всё успешно. Копируете ссылку Screen
+7. Проверяете, что всё успешно. Копируете ссылку [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/cloud-run-result.png)
 
 #### Ссылку нам:
 Пришлите полученную ссылку @XXX в телеграм. \
