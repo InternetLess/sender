@@ -46,3 +46,5 @@
 - Задеплоить этот контейнер любым удобным способом и скинуть endpoint нам: \
 `docker run -e PORT=7000 -e FROM_NUMBER="+1XXX" -e TO_NUMBER="+1XXX" -e TWILIO_SID="XXX" -e TWILIO_TOKEN="XXX" -p 7000:7000 sender:latest` \
 All env-vars are required except PORT. Default port is 8080.
+- Использовать docker-compose для более удобной сборки (не забудьте изменить файл конфигурации!)
+Для этого ```docker-compose up --build```

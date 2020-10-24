@@ -1,0 +1,15 @@
+version: '3.1'
+
+services:
+  sender:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 7000:7000
+    environment:
+      - PORT=7000
+      - FROM_NUMBER="+1XXX"
+      - TO_NUMBER="+1XXX"
+      - TWILIO_SID="XXX"
+      - TWILIO_TOKEN="XXX"
