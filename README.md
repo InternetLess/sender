@@ -23,7 +23,7 @@
 2. Активируйте trial. [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/activate-gcp-trial.png). Там потребуется карта, но это бесплатно и гуглу можно доверять :)
 3. Зайдите на страницу создания сервиса Cloud Run(это дешёвый способ запускать контейнеры). https://console.cloud.google.com/run/create
 4. Заполните поля, как на скриншоте. [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/cloud-run-fill-1.png)
-5. Url образа контейнера: `gcr.io/internetless/sender:latest` [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/cloud-run-fill-2.png)
+5. Url образа контейнера: `gcr.io/internetless-sender/sender:latest` [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/cloud-run-fill-2.png)
 6. Заполните переменные: [Screenshot](https://raw.githubusercontent.com/InternetLess/sender/master/screenshots/cloud-run-fill-3.png)
     - TWILIO_SID - получили при регистрации на twilio (Account Sid)
     - TWILIO_TOKEN - тоже при регистрации на twilio (Auth Token)
